@@ -68,7 +68,7 @@ const demoTabs = [
   },
   {
     id: 8,
-    Icon: ECommerce,
+    Icon: InvestmentStartups,
     title: "1С: ERP",
     url: "https://ws.onescloud.net/Demo_ERP/ru_RU/",
   },
