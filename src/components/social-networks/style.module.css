@@ -1,0 +1,14 @@
+.socialNetworks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 138px;
+  width: 100%;
+}
+
+.socialNetworks a {
+  height: 24px;
+}
+
+.socialNetworks svg:hover path {
+  fill: #ffffff;
+}

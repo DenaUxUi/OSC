@@ -1,0 +1,397 @@
+.configurationContainer {
+  padding: 0px 24px;
+  z-index: 0;
+  padding-top: 239px;
+  position: relative;
+  top: -128px;
+  background: white;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.titleContainer h2 {
+  color: var(--primary);
+  margin-right: 16px;
+}
+
+.titleContainer span {
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #93bceb;
+  max-width: 916px;
+}
+
+.btnKnowledgeBase {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  max-width: 189px;
+  margin-left: 16px;
+}
+
+.btnKnowledgeBase:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btnKnowledgeBase:hover svg path {
+  stroke: var(--primary);
+}
+
+.academicCapContainer,
+.academicCapContainer svg {
+  width: 24px;
+  height: 24px;
+}
+
+.academicCapContainer {
+  margin-right: 16px;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 40px;
+  color: var(--secondary);
+  margin-bottom: 56px;
+}
+
+.moreConfiguration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 88px;
+  margin-bottom: 523px;
+}
+
+.moreConfiguration h2 {
+  color: var(--secondary);
+  text-align: center;
+}
+
+.moreConfiguration h2 span {
+  color: var(--primary);
+}
+
+.moreConfiguration img {
+  max-width: 544px;
+  width: 100%;
+}
+/* Tabs Section */
+.tabsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabsContent {
+  width: 256px;
+  height: 96px;
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  padding: 24px;
+  margin-right: 10px;
+}
+.tabsContentDemo {
+  width: 256px;
+  height: 96px;
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary) !important;
+  text-decoration: none;
+  padding: 24px;
+  margin-right: 10px;
+}
+
+.tabsContentDemo:hover {
+  background-color: var(--primary);
+  color: var(--white) !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.tabsContentDemo:last-child {
+  margin-right: 0px;
+}
+
+.tabsContentDemo p {
+  margin-left: 24px;
+}
+
+.tabsContentDemo svg {
+  min-width: 40px;
+  width: 40px;
+  min-height: 40px;
+}
+
+
+.tabsActive {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.tabsContent:last-child {
+  margin-right: 0px;
+}
+
+.tabsContent p {
+  margin-left: 24px;
+}
+
+.tabsContent svg {
+  min-width: 40px;
+  width: 40px;
+  min-height: 40px;
+}
+
+.tabsActive path,
+.tabsContentDemo:hover path{
+  fill: var(--white);
+}
+
+.tabsItem {
+  margin-top: 40px;
+}
+
+.accountingTabTitle {
+  color: var(--light);
+  margin-bottom: 40px;
+}
+
+.accountingTabTitle span {
+  color: var(--primary);
+}
+/* End Of Tabs Section */
+
+.accordionTitle {
+  color: var(--primary);
+  margin-bottom: 40px;
+}
+
+.accordionDescription {
+  color: var(--dark);
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.accordionList ul {
+  padding: 0px;
+}
+
+.accordionList ul li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.accordionList ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.accordionList ul li p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light);
+  margin-left: 16px;
+}
+
+.accordionList ul p:last-child {
+  margin-bottom: 0px;
+}
+
+.accordionList ul li svg {
+  min-width: 16px;
+  min-height: 16px;
+  margin-top: 4px;
+}
+
+button.accordionBtn {
+  background-color: var(--white);
+  color: #29c3a8;
+  border-color: #29c3a8;
+  margin-bottom: 32px;
+  max-width: 464px;
+  width: 100%;
+}
+
+button.accordionBtn:hover {
+  background-color: #29c3a8;
+  color: var(--white);
+}
+
+.badgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -24px;
+}
+
+.badgesContent {
+  background-color: #f5f9fd;
+  color: var(--primary);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.badgesContent:last-child {
+  margin-right: 0px;
+}
+
+.badgesContent svg {
+  min-width: 16px;
+  min-height: 16px;
+  margin-right: 16px;
+}
+
+.badgesContent svg circle {
+  fill: var(--primary);
+}
+
+.demoTabsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1180px) {
+  .demoTabsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .demoTabsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .demoTabsContainer {
+    display: block;
+  }
+}
+
+@media (max-width: 1120px) {
+  .configurationContainer {
+    padding: 0px 24px;
+    z-index: 0;
+    padding-top: 237px;
+    position: relative;
+    top: -160px;
+    background: white;
+  }
+}
+
+@media (max-width: 992px) {
+  .btnKnowledgeBase {
+    margin: 24px auto 0px auto;
+  }
+
+  .moreConfiguration {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+
+  .moreConfiguration h2 {
+    margin-bottom: 39px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .moreConfiguration img {
+    max-width: 450px;
+  }
+
+  .titleContainer {
+    justify-content: center;
+  }
+
+  .titleContainer h2 {
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .titleContainer span {
+    display: none;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .tabsContainer {
+    display: unset;
+  }
+
+  .tabsContent,
+  .tabsContentDemo  {
+    max-width: 256px;
+    height: 88px;
+    display: flex !important;
+    padding: 24px 33px;
+  }
+
+  .tabsContent p,
+  .tabsContentDemo p,
+  .accordionList ul li p,
+  .badgesContent p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .accountingTabTitle {
+    text-align: center;
+  }
+
+  .accordionTitle {
+    margin-bottom: 24px;
+  }
+
+  .accordionDescription {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .accordionList ul li svg {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .badgesContent {
+    width: 100%;
+    margin-right: 0px;
+  }
+}

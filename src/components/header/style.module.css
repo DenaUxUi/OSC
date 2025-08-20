@@ -1,0 +1,306 @@
+.headerContainer {
+  background: radial-gradient(50% 50% at 50% 50%, #4081df 0%, #1840a8 100%);
+  padding: 24px 0px;
+}
+
+.headerContainerMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.headerContainerMobile {
+  cursor: pointer;
+}
+
+.calcContainer {
+  color: #ffffff;
+}
+
+.calcContent {
+  display: flex;
+}
+
+.calcContent svg {
+  margin-right: 8px;
+}
+
+.burgerMenu {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.topContainer {
+  display: flex;
+  margin-top: 80px;
+  color: var(--white);
+}
+
+.topLeftBlock h1 {
+  margin-bottom: 32px;
+}
+
+.topRightBlock {
+  margin-bottom: 24px;
+}
+
+.topRightBlock img {
+  max-width: 640px;
+}
+
+.trialPeriod {
+  text-align: center;
+  color: var(--primary-light);
+  padding: 24px 0px;
+}
+
+.likeContainer {
+  height: 24px;
+}
+
+.likeContainer svg {
+  margin-right: 12px;
+}
+
+/* SideMenu */
+.sideMenuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.logoMobile {
+  width: 80px;
+  height: 24px;
+}
+
+.sideMenuContent {
+  color: var(--white);
+  border-top: 1px solid var(--primary-light);
+}
+
+.sideMenuContent h1 {
+  margin-bottom: 24px;
+}
+
+.socialNetworksWrapper {
+  padding: 24px 0px;
+}
+
+.sideNavMenu {
+  flex-direction: column;
+}
+
+.navContent {
+  margin-bottom: 24px;
+  margin-right: 0px;
+}
+
+.sideNavMenu svg {
+  margin-right: 16px;
+}
+
+.navContent:nth-child(3) svg path {
+  fill: var(--primary-light);
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  color: var(--primary-light);
+  margin-bottom: 16px;
+}
+
+.link:last-child {
+  margin-bottom: 24px;
+}
+/* End Of SideMenu */
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  margin-top: 12px;
+}
+
+.sideLogoContainer {
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--white);
+  display: flex;
+  align-items: flex-end;
+}
+
+.sideLogoContainer svg {
+  margin-right: 16px;
+}
+
+.headerNavMenu {
+  border-bottom: 1px solid var(--primary-light);
+  padding-bottom: 12px;
+  width: 530px;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.official {
+  padding-top: 24px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.dNone {
+  display: none;
+}
+
+.consultationDNone {
+  display: none !important;
+}
+
+.consultation {
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+  padding-top: 24px;
+  margin: 26px 0px 24px 0px;
+  border-top: 1px solid var(--primary-light);
+  text-decoration: underline;
+}
+
+.consultation svg {
+  margin-right: 16px;
+}
+
+.navItem {
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.navItem svg {
+  margin-right: 16px;
+}
+
+.topNav,
+.bottomNavWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.personalAccWrapper {
+  border: 1px solid #4399ff;
+  width: 192px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  margin-left: 40px;
+}
+
+.personalAccWrapper svg {
+  margin-left: 8px;
+}
+
+@media (max-width: 1140px) {
+  .headerContainer {
+    padding: 24px 20px;
+  }
+
+  .topContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .topLeftBlock h1,
+  .topLeftBlock p {
+    text-align: center;
+  }
+
+  .topLeftBlock h1 {
+    padding: 16px 0px;
+    margin-bottom: 0px;
+  }
+
+  .topLeftBlock {
+    margin-bottom: 24px;
+  }
+
+  .topRightBlock {
+    margin-bottom: 0px;
+  }
+
+  .topRightBlock img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .headerNavMenu {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .calcContainer p {
+    font-size: 14px;
+  }
+
+  .topLeftBlock p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .trialPeriod {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .personalAccWrapper {
+    margin: 24px 0px;
+    width: 210px;
+  }
+
+  .sideNavMenu {
+    border-top: 1px solid #4399ff;
+    padding-top: 24px;
+  }
+
+  .sideNavMenu span {
+    font-size: 16px;
+  }
+
+  .sideNavMenu svg path {
+    stroke: #ff405b;
+  }
+
+  .navContent:nth-child(3) svg path {
+    fill: #ff405b;
+  }
+}
+
+@media (max-width: 360px) {
+  .likeContainer {
+    display: none;
+  }
+}

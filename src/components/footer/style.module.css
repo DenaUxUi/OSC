@@ -1,0 +1,163 @@
+.footerContainer {
+  background-color: var(--primary);
+  padding: 168px 24px 70px 24px;
+}
+
+.logoContainer svg {
+  width: 128px;
+  height: 38px;
+  margin-bottom: 24px;
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 10px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 833px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.footerContainer .socialNetworksWrapper {
+  max-width: 120px;
+  min-width: 120px;
+  margin-right: 45px;
+}
+
+.consultation {
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--primary-light);
+  text-decoration: underline;
+}
+
+.consultation svg,
+.sideNavMenu svg {
+  margin-right: 16px;
+}
+
+.sideNavMenu {
+  flex-direction: column;
+}
+
+div.navContent {
+  margin-right: 50px;
+  white-space: nowrap;
+}
+
+div.navContent:last-child {
+  margin-right: 0px;
+}
+
+.consultationDNone {
+  display: none !important;
+}
+
+.policyContainer a {
+  color: var(--primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.policyContainer a:last-child {
+  margin-left: 40px;
+}
+
+.contactsWrapper {
+  max-width: 833px;
+  width: 100%;
+  border-top: 1px solid #4399ff;
+  padding-top: 36px;
+}
+
+@media (max-width: 1140px) {
+  .footerContainer {
+    padding: 140px 24px 32px 24px;
+  }
+
+  .footerContentWrapper {
+    align-items: flex-start;
+    padding-top: 0px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .footerContainer .navMenuContainer {
+    margin-top: 24px;
+  }
+
+  .navContent {
+    margin: 0px 32px 24px 0px;
+  }
+
+  .footerContainer .socialNetworksWrapper {
+    max-width: 138px;
+  }
+}
+
+@media (max-width: 992px) {
+  .spaceBetween {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-bottom: 30px;
+  }
+
+  .footerContainer .navMenuContainer {
+    flex-wrap: wrap;
+  }
+
+  .footerContainer .socialNetworksWrapper {
+    padding: 24px 0px;
+  }
+
+  div.navContent {
+    margin-bottom: 24px;
+  }
+
+  .navContent:nth-child(3) svg path {
+    fill: var(--primary-light);
+  }
+
+  .sideNavMenu span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .policyContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .policyContainer a:last-child {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}

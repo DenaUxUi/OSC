@@ -1,0 +1,65 @@
+.contactsContainer {
+  display: flex;
+}
+
+.contactsContent {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 24px;
+}
+
+.contactsContent a {
+  color: var(--white);
+}
+
+.contactsContent:last-child {
+  margin-right: 0px;
+}
+
+.contactsContent svg {
+  margin-right: 8px;
+}
+
+.consultation {
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.consultation svg {
+  margin-left: 8px;
+}
+
+.consultationWrapper {
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+@media (max-width: 992px) {
+  .contactsContainer {
+    flex-direction: column;
+  }
+
+  .contactsContent {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0px 0px 24px 0px;
+  }
+
+  .contactsContent svg {
+    margin-right: 16px;
+  }
+
+  .consultation {
+    margin-left: 0px;
+  }
+
+  .consultation svg {
+    margin-right: 16px;
+  }
+}

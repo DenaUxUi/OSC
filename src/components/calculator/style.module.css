@@ -1,0 +1,396 @@
+.calculatorContainer {
+  padding: 0px 24px;
+  margin: -312px 0px 88px 0px;
+}
+
+.calculatorContent {
+  display: flex;
+  box-shadow: 0px 24px 48px 0px #162a6040;
+}
+
+.leftContent {
+  padding: 64px 48px 64px 56px;
+  background-color: var(--white);
+}
+
+.leftContent h2 {
+  color: var(--primary);
+}
+
+.subtitle {
+  color: var(--secondary);
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chooseConfiguration {
+  color: var(--light);
+  margin-bottom: 24px;
+}
+
+.chooseConfiguration span {
+  color: var(--primary);
+}
+
+.switchesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 579px;
+  width: 100%;
+}
+
+.switchContent {
+  background-color: #ffffff;
+  width: 281.5px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0px 8px 16px 0px #cbdaeb66;
+}
+
+.switchContent:nth-last-child(-n + 2) {
+  margin-bottom: 0px;
+}
+
+.switchContent:nth-child(odd) {
+  margin-right: 16px;
+}
+
+.switchContent p {
+  color: #94b3d6;
+  white-space: pre-wrap;
+  margin-right: 5px;
+}
+
+.switchChecked {
+  background-color: #f5f9fd;
+  box-shadow: none;
+}
+
+.switchChecked p {
+  color: var(--primary);
+}
+
+/* Right Section */
+.rightContent {
+  max-width: 437px;
+  width: 100%;
+}
+
+.rightContentTop {
+  background-color: #163d9f;
+  padding: 64px 48px 40px 48px;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.infoContainer svg {
+  margin-left: 8px;
+}
+
+.infoTitle {
+  color: var(--primary-light);
+}
+
+.counterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.counterContent {
+  width: 158px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #365ec6;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
+  padding: 8px;
+}
+
+.counterContent button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.counterContent button:hover {
+  background-color: #2a51b5;
+}
+
+.counterContent button:hover svg path {
+  fill: #29c3a8;
+}
+
+.rightContentBottom {
+  background-color: #123385;
+  padding: 33px 48px 32px 48px;
+}
+
+.monthContainer {
+  margin-top: 24px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.price {
+  font-family: "Manrope";
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 72px;
+  color: var(--white);
+}
+
+.priceContainer {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--primary-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.priceContainer p,
+.savingContainer p span {
+  color: var(--white);
+}
+
+.price span {
+  font-family: "Manrope";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.savingContainer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.savingContainer p {
+  color: var(--primary-light);
+}
+
+.accessContainer {
+  margin: 24px 0px 16px 0px;
+}
+.accessContainer svg {
+  margin-right: 9px;
+}
+
+.freeDaysWrapper, .freeDaysWrapper:hover{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.freeDays {
+  color: var(--primary-light);
+  text-align: center;
+}
+
+.defaultCheckbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.defaultCheckbox p {
+  color: var(--white);
+  margin-left: 16px;
+}
+/* Right Section */
+
+.opinionsWrapper {
+  display: none;
+}
+
+.infoContainer p {
+  max-height: 20px;
+}
+
+.infoContainer button {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0px;
+}
+
+.infoContainer button:focus svg path {
+  fill: var(--secondary);
+}
+
+@media (max-width: 1167px) {
+  .calculatorContainer {
+    margin-top: -176px;
+  }
+  .calculatorContent {
+    flex-direction: column;
+  }
+
+  .rightContent {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 747px) {
+  .switchesContainer {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-height: 304px;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .switchesContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .switchContent {
+    height: 64px;
+    margin: 0px 8px 16px 8px;
+  }
+
+  .switchContent:nth-child(odd) {
+    margin-right: 8px;
+  }
+
+  .switchContent p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .switchContent:nth-last-child(-n + 2) {
+    margin-bottom: 16px;
+  }
+
+  .leftContent {
+    padding: 32px 24px 24px 24px;
+  }
+
+  .leftContent h2 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .titleWrapper svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .chooseConfiguration {
+    font-size: 14px;
+  }
+
+  .rightContentTop {
+    padding: 24px 24px 0px 24px;
+  }
+
+  .infoTitle,
+  .savingContainer p,
+  .freeDays {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .price {
+    font-size: 32px;
+    line-height: 56px;
+  }
+
+  .price span {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .priceContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .rightContentBottom {
+    padding: 24px;
+  }
+
+  .calculatorContainer {
+    margin-bottom: 40px;
+  }
+
+  .opinionsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .opinionsWrapper img {
+    max-width: 320px;
+    width: 100%;
+    border-bottom: 1px solid #93bceb;
+  }
+
+  .monthContainer {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .counterContainer {
+    flex-direction: column;
+  }
+
+  .counterContent {
+    width: 100%;
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+
+  .accessContainer button {
+    flex-direction: row-reverse;
+  }
+
+  .accessContainer svg {
+    margin: 0px 0px 0px 9px;
+  }
+
+  .monthContainer {
+    margin: 0px;
+  }
+
+  .monthContainer .w100 {
+    margin: 0px;
+  }
+}
+
+@media (min-width:641px) {
+  .infoContainer button:hover svg path {
+    fill: var(--secondary);
+  }
+}

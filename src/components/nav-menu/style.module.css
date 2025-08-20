@@ -1,0 +1,20 @@
+.navMenuContainer {
+  display: flex;
+}
+
+.mr {
+  margin-right: 55.5px;
+}
+
+.mr:last-child {
+  margin-right: 0px;
+}
+.navItem {
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.navItem svg {
+  margin-right: 8px;
+}

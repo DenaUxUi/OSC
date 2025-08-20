@@ -1,0 +1,159 @@
+.statisticsReviewsContainer {
+  width: 100%;
+  background: linear-gradient(0deg, #f3f5fa 0%, rgba(243, 245, 250, 0) 89.66%);
+}
+
+.statisticsReviewsContainer h2 {
+  color: var(--primary);
+  text-align: center;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.statisticsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 106px 0px 80px 0px;
+}
+
+.statisticsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.statisticsContent h2 {
+  margin: 24px 0px;
+}
+
+.statisticsContent p {
+  color: #292929;
+}
+
+.reviewCardContainer {
+  width: 352px;
+  height: 275px;
+  background-color: var(--white);
+  padding: 32px 24px;
+  box-shadow: 0px 24px 48px 0px #15203e40;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.reviewsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 48px 32px;
+  z-index: 1;
+}
+
+.reviewCardContainer img {
+  max-width: 304px;
+  width: 100%;
+  height: 107px;
+  margin-bottom: 24px;
+}
+
+.zoomInWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.zoomInWrapper svg {
+  margin-right: 8px;
+}
+
+.closeWrapper {
+  width: 52px;
+  height: 52px;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+}
+
+.sliderReviews {
+  z-index: 1;
+}
+
+@media (max-width: 1120px) {
+  .reviewCardContainer {
+    display: block;
+    margin: 0px auto;
+    width: 320px;
+    height: 259px;
+    padding: 24px 8px;
+    box-shadow: 0px 16px 20px 0px #15203e40;
+  }
+}
+
+@media (max-width: 992px) {
+  .statisticsReviewsContainer h2 {
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .statisticsContainer {
+    margin: 21px 0px 64px 0px;
+    padding: 0px 24px;
+    flex-wrap: wrap;
+  }
+
+  .statisticsContent {
+    margin: 48px 10px 0px 0px;
+  }
+
+  .statisticsContent p {
+    max-width: 152px;
+    text-align: center;
+  }
+
+  .closeWrapper {
+    width: 32px;
+    height: 32px;
+  }
+  .closeWrapper svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 372px) {
+  .statisticsContainer {
+    justify-content: center;
+  }
+}
