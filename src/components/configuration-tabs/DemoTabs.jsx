@@ -62,7 +62,7 @@ const demoTabs = [
   },
   {
     id: 7,
-    Icon: TradeSupply,
+    Icon: ECommerce,
     title: "1С: Управление торговлей",
     url: "https://ws.onescloud.net/Demo_UT/ru_RU/",
   },
